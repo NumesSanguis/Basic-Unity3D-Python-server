@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 13
-  productGUID: 6dcc63fcca31e42de8a64faed45dfeb1
+  productGUID: 370a7727b424445c4b5598716ed39919
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -12,7 +12,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: BasicUnityPython
+  productName: unity-simple-tcp
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -420,7 +420,7 @@ PlayerSettings:
   ps4DownloadDataSize: 0
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
-  ps4Passcode: j8iCSg852OwgMTdNyCzrj8Bz0qcHgiJN
+  ps4Passcode: G1z3DwAg2Z202AXQ53mnJgjmrgGd5UdL
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -466,7 +466,7 @@ PlayerSettings:
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
   psp2PatchOriginalPackage: 
-  psp2PackagePassword: o1aGhgLi2GOPhzkd9hVsngqlUQ0A8JWw
+  psp2PackagePassword: TbMhVXLX4LX5U2VZ6GKPw4AokOPpq18K
   psp2KeystoneFile: 
   psp2MemoryExpansionMode: 0
   psp2DRMType: 0
@@ -521,14 +521,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: BasicUnityPython
+  metroPackageName: unity-simple-tcp
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: BasicUnityPython
+  metroApplicationDescription: unity-simple-tcp
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -599,13 +599,12 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled:
-    UNet: 1
+  cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 50a99a1a-06b6-4610-81ef-d76855303023
-  projectName: BasicUnityPython
-  organizationId: numessanguis
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
