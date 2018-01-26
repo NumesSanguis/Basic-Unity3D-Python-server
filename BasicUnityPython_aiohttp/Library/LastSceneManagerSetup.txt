@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/basic_aiohttp.unity
+  isLoaded: 1
+  isActive: 1
