@@ -1,7 +1,8 @@
 # Basic-Unity3D-Python-server
 A Python 3.6 client with `asyncio` for asynchronous execution, that can send to and receive JSON messages from a Unity3D server (Unity 2017.2.0f3).
 
-# Test usage Unity 3D - Python client
+# How to run
+## Test usage Unity 3D - Python client
 1) Start Unity 3D from `BasicUnityPython` & press play (you should see in Unity: Server is listening)
 2) Open terminal in this folder and run: `python client_asyncio.py`, you should see in Unity: `"Hello World x"` / Python terminal:
 
@@ -10,12 +11,12 @@ A Python 3.6 client with `asyncio` for asynchronous execution, that can send to 
     {'unity': 'Unity sends its regards x'}
     Close the socket
 
-# Test usage Python server - Python client
+## Test usage Python server - Python client
 1) Open terminal in this folder and run: `python server_asyncio.py`
 2) Open another terminal here and run: `python client_asyncio.py`
 
 
-# Test usage Unity 3D - Python with SocketIO
+## Test usage Unity 3D - Python with SocketIO
 1) Start Unity 3D from `BasicUnityPython_aiohttp` & press play
 2) Open terminal in this folder and run: `python client_asyncio_aiohttp.py` (you should see in Unity: `"data_stuff": x` / Python terminal: `message:  {'receive': 'received x'}`)
 
