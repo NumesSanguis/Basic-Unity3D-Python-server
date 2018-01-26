@@ -27,7 +27,9 @@ public class TCPTestServer : MonoBehaviour {
 	/// Create handle to connected tcp client. 	
 	/// </summary> 	
 	private TcpClient connectedTcpClient; 	
-	#endregion 	
+	#endregion
+
+	int counter = 0;
 		
 	// Use this for initialization
 	void Start () { 		
@@ -36,13 +38,15 @@ public class TCPTestServer : MonoBehaviour {
 		tcpListenerThread.IsBackground = true; 		
 		tcpListenerThread.Start(); 	
 	}  	
-	
+
+	/*
 	// Update is called once per frame
 	void Update () { 		
 		if (Input.GetKeyDown(KeyCode.Space)) {             
 			SendMessage();         
 		} 	
-	}  	
+	}
+	*/
 	
 	/// <summary> 	
 	/// Runs in background TcpServerThread; Handles incomming TcpClient requests 	
@@ -94,6 +98,9 @@ public class TCPTestServer : MonoBehaviour {
 			//Debug.Log(blendDict[key]);
 			//skinnedMeshRenderer.SetBlendShapeWeight(blendDict[key], blendVal*100);
 		}
+
+		// Tell the python client we received the message
+		SendMessage ();
 	}
 
 
@@ -111,7 +118,8 @@ public class TCPTestServer : MonoBehaviour {
 			if (stream.CanWrite) {
 				// Added: create dict to be a JSON object
 				Dictionary<string, string> serverMessage = new Dictionary<string, string>();
-				serverMessage["unity"] = "Unity sends its regards";
+				serverMessage["unity"] = String.Format("Unity sends its regards {0}", counter);
+				counter++;
 				JSONObject serverMessage_json = new JSONObject(serverMessage);
 				String serverMessage_string = serverMessage_json.ToString();
 				//string serverMessage = "This is a message from your server.";  // original code			

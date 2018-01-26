@@ -15,9 +15,9 @@ sio.attach(app)
     #     return web.Response(text=f.read(), content_type='text/html')
 
 @sio.on('connect')  # , namespace='/chat'
-def connect(sid, environ):
+async def connect(sid, environ):
     print("connect ", sid)
-    sio.emit(
+    await sio.emit(
         "srv_message",
         data={
             'welcome': "Connection initiated",
@@ -44,7 +44,7 @@ async def message(sid, data):
             skip_sid=True)
     else:
         # NOTE: DON'T EDIT THIS.
-        sio.emit('manual', data={}, skip_sid=True)
+        await sio.emit('manual', data={}, skip_sid=True)
 
 @sio.on('disconnect')  # , namespace='/chat'
 def disconnect(sid):

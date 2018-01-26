@@ -1,4 +1,5 @@
-﻿using SocketIO;
+﻿using System;
+using SocketIO;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
@@ -15,6 +16,9 @@ public class SocketIODriveClient : MonoBehaviour {
 	public IOReceiver_request IOReceiver_bd;
 	private SocketIOComponent _socket;
 	bool collectData = false;
+
+	// test purposes
+	int counter = 0;
 
 	//public Text ai_steering;
 
@@ -87,7 +91,8 @@ public class SocketIODriveClient : MonoBehaviour {
 				//data["throttle"] = car.GetThrottle().ToString("N4");
 				//data["speed"] = car.GetVelocity().magnitude.ToString("N4");
 				//data["image"] = System.Convert.ToBase64String(CameraHelper.CaptureFrame(camSensor));
-				data["receive"] = "received";
+				data["receive"] = String.Format("received {0}", counter);
+				counter++;
 			}
 		}
 	}

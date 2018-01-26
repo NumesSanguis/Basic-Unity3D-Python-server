@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{26F09ED9-80E1-10E1-6722-4FB5DF8F1C7A}</ProjectGuid>
+    <ProjectGuid>{5012739A-D40D-D079-4523-6E39469D915F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -54,7 +54,7 @@
      <Compile Include="Assets\JSON\Editor\JSONChecker.cs" />
      <None Include="Assets\JSON\readme.txt" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>/home/nishida-stef-ubuntu/bitbucket/facsvatar_data/unity-simple-tcp2/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>/home/nishida-stef-ubuntu/GitHub/Basic-Unity3D-Python-server/BasicUnityPython/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -167,7 +167,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{C1155A43-5A9E-C161-D7AE-073FDDD1ACE9}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{649380BA-B0E2-3DF6-7268-BB96111959B9}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

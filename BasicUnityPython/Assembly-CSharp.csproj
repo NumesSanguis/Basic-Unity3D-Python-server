@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C1155A43-5A9E-C161-D7AE-073FDDD1ACE9}</ProjectGuid>
+    <ProjectGuid>{649380BA-B0E2-3DF6-7268-BB96111959B9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,7 +58,7 @@
      <Compile Include="Assets\Scripts\TCPTestServer.cs" />
      <None Include="Assets\JSON\readme.txt" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>/home/nishida-stef-ubuntu/bitbucket/facsvatar_data/unity-simple-tcp2/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>/home/nishida-stef-ubuntu/GitHub/Basic-Unity3D-Python-server/BasicUnityPython/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
