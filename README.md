@@ -1,3 +1,6 @@
+# NEWER APPROACH
+This project served as a way to connect Python with Unity 3D. However, in my current project (https://github.com/NumesSanguis/FACSvatar) I switched to ZeroMQ for this, which is more stable and more robust than the code found here. So I would recommend looking at that code.
+
 # Basic-Unity3D-Python-server
 A Python 3.6 client with `asyncio` for asynchronous execution, that can send to and receive JSON messages from a Unity3D server (Unity 2017.2.0f3).
 
